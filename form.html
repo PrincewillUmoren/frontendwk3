@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>medical registration form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>personal information</legend>
+
+            <ul>
+                <li><label for="full">Full name:</label>
+                    <input type="text" name="text" id="full"></li>
+                <li>
+                    <label for="email">email:</label>
+                    <input type="email" name="" id="">
+
+                </li>
+                <li>
+                    <label for="place of birth">place of birth</label>
+                    <input type="text" name="text" id="full" placeholder="city of birth">
+                </li>
+                <li>
+                    <label for="tel">phone number</label>
+                    <input type="tel" name="phone" id="phone">
+                </li>
+                <li>
+                    <label for="IDnum">ID number</label>
+                    <input type="number" name="" id="number">
+                </li>
+                <li>
+                    gender <br>
+                    <input type="radio" name="Gender" id="male">
+                    <label for="male">male</label>
+
+                    <input type="radio" name="Gender" id="female">
+                    <label for="female">female</label>
+                </li>
+                <li>
+                    status <br>
+                    <input type="radio" name="status" id="single">
+                    <label for="single">single</label>
+
+                    <input type="radio" name="status" id="married">
+                    <label for="married">married</label>
+
+                    <input type="radio" name="status" id="others">
+                    <label for="others">others</label>
+
+                </li>
+                <li>
+                    <label for="work">occupation</label>
+                    <select name="work" id="work">
+                        <optgroup label="coding">
+                        <option value="fr">frontend</option>
+                        <option value="br">backend</option>
+                         <option value="fs">fullstack</option>
+                        </optgroup>
+                        <optgroup label="no coding">
+                        <option value="pr">productdesign</option>
+                        <option value="pm">productmanagement</option>
+                    </optgroup>
+                    </select>
+                </li>
+
+                <li>
+                    stack <br>
+                    <label for="React">React</label>
+                    <input type="Checkbox" name="stack" id="react">
+
+                </li>
+            </ul>
+            <label for="place"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>emergency contact details</legend>
+            <ul>
+                <li>
+                    <label for="full">contact name :</label>
+                    <input type="text" name="text" id="full">
+
+                    <label for="tel">phone number :</label>
+                    <input type="tel" name="phone" id="phone">
+
+                </li>
+
+                <li>
+                    <label for="tel">home phone number :</label>
+                    <input type="tel" name="phone" id="phone">
+
+            
+
+                
+                    <label for="origin">state of origin :</label>
+                    <select name="origin" id="origin">
+
+                        <optgroup label="south west">
+                            <option value="sw">osun</option>
+                            <option value="Sw">ondo</option>
+                        </optgroup>
+                        <optgroup label="north east">
+                            <option value="ne">adamawa</option>
+                            <option value="ne">bauchi</option>
+                        </optgroup>
+                        <optgroup label="south south">
+                            <option value="ss">akwaibom</option>
+                            <option value="ss">rivers</option>
+                        </optgroup>
+                        <optgroup label="north central">
+                            <option value="nc">kogi</option>
+                            <option value="nc">kwara</option>
+                        </optgroup>
+                        <optgroup label="north west">
+                            <option value="nw">kaduna</option>
+                            <option value="nw">kano</option>
+                        </optgroup>
+                        <optgroup label="south east">
+                            <option value="se">abia</option>
+                            <option value="se">anambra</option>
+                        </optgroup>
+
+                    </select>
+
+                </li>
+            </ul>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>office use only</legend>
+                <ul>
+                    <li>
+                        <label for="date">date :</label>
+                        <input type="date" name="date" id="date">
+                       <label for="membership">membership type :</label>
+                        <input type="text" name="" id="membership">
+                        <select name="membership" id="membership">
+                            <option value="normal">normal</option>
+                            <option value="private">private</option>
+
+                        </select>
+                    </li>
+
+                    <li>
+                        <label for="mebership number">membership number:</label>
+                        <input type="number" name="number" id="number">
+
+                        <label for="payment type">payment type:</label>
+                        <input type="text" name="text" id="text">
+                        <select name="payment type" id="payment type">
+                            <option value="cash">cash</option>
+                            <option value="check">check</option>
+                        </select>
+                    </li>
+
+                    <li>
+                        <label for="staff name">staff name:</label>
+                        <input type="text" name="staff name" id="text">
+
+                        <label for="signature">signature :</label>
+                        <input type="text" name="signature" id="signature">
+                    </li>
+                    
+
+
+                </ul>
+
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
